@@ -1,4 +1,4 @@
-interface CardProps {
+export interface CardProps {
   title: string;
   description: string;
   imageUrl: string;
@@ -7,7 +7,7 @@ interface CardProps {
   date: string;
 }
 
-interface ButtonProps {
+export interface ButtonProps {
   label: string;
   onClick: () => void;
 }
